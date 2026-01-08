@@ -9,4 +9,7 @@ class ResourcesManager():
         return self.data[key]
 
     def get_recomendation(self, key):
-        return self.data["recomendations"][key]
+        return self.data["recomendations"].get(key, self.data["recomendation_for_unknown"])
+
+    def get_name_by_code(self, code):
+        return self.data["names_by_codes"][code]

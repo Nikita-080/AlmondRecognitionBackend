@@ -1,4 +1,4 @@
 {
-"test_mode":true,
-"model_path":"models/model.bin"
+"test_mode":false,
+"model_path":"models/best.pt"
 }
